@@ -1,0 +1,28 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "movie API with graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haneulee/movieql.git"
+  },
+  "author": "Haneul Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haneulee/movieql/issues"
+  },
+  "homepage": "https://github.com/haneulee/movieql#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "global": "^4.3.2",
+    "graphql-yoga": "^1.14.12",
+    "nodemon": "^1.18.3"
+  }
+}
