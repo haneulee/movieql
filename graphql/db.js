@@ -29,7 +29,7 @@ export const getById = id => {
 export const deletePeople = id => {
   const cleanedPeople = people.filter(person => id !== person.id);
   if (people.length > cleanedPeople.length) {
-    person = cleanedPeople;
+    people = cleanedPeople;
     return true;
   } else {
     return false;
